@@ -1,9 +1,9 @@
-from tree_of_thoughts.treeofthoughts import OpenAILanguageModel, TreeofThoughts, HuggingLanguageModel, TreeofThoughts
+from tree_of_thoughts import OpenAILanguageModel, TreeofThoughts, HuggingLanguageModel, TreeofThoughts
 
-model_name="gpt"
+model_name="gpt2"
 
 model = HuggingLanguageModel(model_name, 
-                             model_Tokenizer="gpt2", 
+                             model_tokenizer="gpt2", 
                              verbose=True)
                              
 
